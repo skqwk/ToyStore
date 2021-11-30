@@ -1,0 +1,61 @@
+body {
+    font-family: "Circe";
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+    color: #454545;
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-weight: 900;
+    font-size: 32px;
+    color: #454545;
+    margin-bottom: 10px;
+
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper section .img-container {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#heart-img {
+    background-image: url('/img/about/heart.jpg');
+}
+#wood-img {
+    background-image: url('/img/about/wood.jpg');
+}
+#leaves-img {
+    background-image: url('/img/about/leaves.jpg');
+}
+

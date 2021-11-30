@@ -1,0 +1,29 @@
+/* Connect fonts */
+@font-face {
+    font-family: "Circe";
+    src: url("/font/CirceRounded-Normal.ttf") format('truetype'),
+         
+         url("/font/CirceRounded-Regular.ttf") format('truetype'),
+         url("/font/CirceRounded-SemiBold.ttf") format('truetype');
+    }
+
+@font-face {
+    font-family: "CirceBold";
+    src: url("/font/CirceRoundedAlt-Regular2.ttf") format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    overflow: visible;
+    margin: 0;
+}
+
+body {
+    font-family: "Circe";
+    min-height: 100vh;
+}
+

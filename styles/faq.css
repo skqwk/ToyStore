@@ -1,0 +1,106 @@
+
+body {
+    font-family: "Circe";
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+    color: #454545;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 32px;
+    color: #454545;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.wrapper section .img-container {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#heart-img {
+    background-image: url('img/about/heart.jpg');
+}
+#wood-img {
+    background-image: url('img/about/wood.jpg');
+}
+#leaves-img {
+    background-image: url('img/about/leaves.jpg');
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    width: 25%;
+    text-align: left;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #454545;
+}
+
+.jet {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+    section {
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .column {
+        width: 100%;
+    }
+}

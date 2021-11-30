@@ -1,0 +1,283 @@
+
+.order-container .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.order-list {
+    
+    width: 67%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.order-list-header {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.order-list-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+.order-list-header ul li {
+    list-style: none;
+    width: 15%;
+
+}
+
+.order-list-header ul li:first-of-type {
+    width: 30%;
+    
+}
+
+
+
+.order-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+
+.order-item>p {
+    width: 15%;
+}
+
+.order-item .product img {
+    height: 100%;
+}
+.product {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.order-item p {
+    margin-left: 10px;
+}
+
+.order-payment {
+    padding: 10px;
+    width: 30%;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    max-height: 700px;
+}
+
+.order-payment  input[type=text],input[type=tel],input[type=email] {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    text-indent: 5px;
+    border: 1px solid #d4d4d4;
+    font-family: "Circe";
+    font-size: 14px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row .fas {
+    right: 5px;
+    top: 15px;
+    display: none;
+    position: absolute;
+    transition: 0.3s;
+    
+}
+
+.row .fa-check {
+    color: #5BDF6F;
+}
+
+.row .fa-times {
+    color: #DF5B5B;
+}
+
+.order-payment input.valid {
+    border: 1px solid #5BDF6F;
+}
+
+.valid ~ .fa-check {
+    display: block;
+}
+
+.valid ~ .fa-times {
+    display: none;
+}
+
+.order-payment input.invalid {
+    border: 1px solid #DF5B5B;
+}
+
+
+.invalid ~ .fa-times {
+    display: block;
+}
+
+.invalid ~ .fa-check {
+    display: none;
+}
+
+
+input[type=tel] {
+    margin-bottom: 40px;
+}
+
+.order-details .order-details-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+/* Button stepper order */
+
+
+.button-primary-order {
+    width: 100%;
+    height: 60px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    background-color: #5BDF6F;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-style: normal;
+    font-family: "Circe";
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.button-primary-order:hover {
+    border: 4px solid #5BDF6F;
+    color: #5BDF6F;
+    background-color: #ffffff;
+}
+
+
+input[type=radio] {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+.payment-method div {
+    margin-bottom: 10px;
+}
+
+.payment-method div:last-of-type {
+    margin-bottom: 40px;
+}
+
+.order-details .order-details-items:last-of-type {
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.order-details .order-details-items:last-of-type h3{
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media (max-width: 1010px) {
+    .order-list {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .order-payment {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .product {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 25%;
+    }
+
+    .product p {
+        margin-left: 0;
+    }
+
+    .order-item .product img {
+        height: calc(90% - 18px);
+    }
+
+    .order-list-header ul li {
+        width: 25%;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .order-list-header ul li:first-of-type {
+        width: 25%;
+        margin-right: 0px;
+        text-align: left;
+    }
+    
+    .order-item {
+        height: 100px;
+    }
+
+    .order-item>p {
+        width: 25%;
+        text-align: center;
+    }
+
+
+}

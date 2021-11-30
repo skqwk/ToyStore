@@ -1,0 +1,327 @@
+h2 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #454545;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #454545;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #454545;
+    margin-bottom: 15px;
+}
+
+/* Common options */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Circe";
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/* Category container */
+
+
+.category-container {
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+.category-container ul {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4 ;
+}
+
+.category-container ul li {
+    list-style: none;
+    transition: 0.4s;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+}
+
+.category-container ul li a {
+   
+
+    width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    color: #454545;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.category-container ul li:hover {
+    background: #5BDF6F;
+    color: #fff;
+
+}
+
+.category-container ul li:hover a {
+    color: #fff;
+
+}
+
+/* Product card */
+
+
+.product-card {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images {
+    width: 50%;
+    flex-direction: column;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.slider .icon {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    color: #454545;
+    background-color: #d4d4d4;
+    opacity: 0;
+    text-align: center;
+    transition: 0.3s;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+
+.slider:hover .icon {
+    opacity: 100%;
+}
+
+.icon:hover {
+    background-color: #f0f0f0;
+    border: 3px solid #c1c2c1;
+}
+
+#left-arrow {
+    left: 0;
+}
+#right-arrow {
+    right: 0;
+}
+
+
+
+.slider img{
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.product-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.meta-data {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.fa-barcode {
+    margin-right: 5px;
+    color: #5BDF6F;
+}
+
+.thumbnail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.thumb{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.thumb img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+
+}
+
+.thumb img:not(.active-img) {
+    opacity: 60%;
+}
+
+
+
+.button-add-to-shop .button-primary {
+    width: 100%;
+    height: 60px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    background-color: #5BDF6F;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-primary:hover {
+    color: #5BDF6F;
+    border: 4px solid #5BDF6F;
+    background-color: #fff;
+}
+
+.button-primary:hover p{
+    color: #5BDF6F;
+}
+
+.button-add-to-shop p {
+    font-style: normal;
+    font-family: "Circe";
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+
+.product-description p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.button-stepper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.button-stepper input[type="number"] {
+    width: 100%;
+    padding: 15px 27px 15px 27px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    font-family: "Circe";
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.button-stepper input[type="number"]:hover {
+    background-color: #f0f0f0;
+    border: 3px solid #c1c2c1;
+}
+
+
+.button-stepper button {
+    position: absolute;
+    top: 0;
+    padding: 15px 25px 15px 25px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    color: #454545;
+    font-family: "Circe";
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.button-stepper button:hover {
+    background-color: #f0f0f0;
+    border: 3px solid #c1c2c1;
+}
+
+#decrement {
+    left: 0;
+}
+
+
+#increment {
+    right: 0;
+} 
+
+@media (max-width:750px) {
+    .images {
+        width: 100%;
+    }
+
+    .product-info {
+        margin-top: 30px;
+        width: 100%
+    }
+
+    .category-container {
+        height: 200px;
+    }
+
+    .category-container ul{
+        flex-direction: column;
+    }
+
+    .category-container ul li{
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .slider .icon {
+        opacity: 100%;
+    }
+}

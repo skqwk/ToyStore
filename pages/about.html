@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+    <title>Теремок!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/common-style.css"> 
+    <link rel="stylesheet" href="/styles/navbar.css">    
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/about.css">
+    <script src="https://kit.fontawesome.com/1317bdbbb8.js" crossorigin="anonymous"></script>    
+    <script src = "/scripts/main.js"></script>
+</head>
+
+<body onload="fillCartItems();">
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id = "check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">
+                    <a href="/pages/index.html">Теремок</a>
+                </label>
+                <ul class="nav-items">
+                    <li>
+                        <a href="/pages/catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="/pages/about.html" class="active">О нас</a>
+                    </li>
+                    <li>
+                        <a href="/pages/frequently-asked-questions.html">FAQ</a>
+                    </li>
+                </ul>
+                <input type="checkbox" id="cart">
+                <label for="cart" class="cartbtn">
+                    <div id="mark-cartbtn"></div>
+                    <i class="fas fa-shopping-cart"></i>
+
+                </label>
+                <div class="cart-items">
+                    <div class="cart-items-background">
+
+                    </div>
+                    <div class="cart-items-list">
+                        <div class="list-header">
+                            <h3>Ваша корзина</h3>
+                            <label for="cart" class="cartbtnclose">
+                                <i class="fas fa-times"></i>
+                            </label>
+                        </div>
+                        <div class="empty-list-state">
+                            Пока что корзина пуста
+                        </div>
+                        <div class="list">
+                        </div>
+                    </div>
+                </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+   <div class="about-contaner">
+       <div class="wrapper">
+           <section class="about-content">
+           <h1>О нас</h1>
+           <h2>Наша философия</h2>
+           <p>В Теремке мы серьезно относимся к развлечениям и получаем от этого серьезное удовольствие! Наши игрушки созданы для того, чтобы развивать чувства, и содержат множество открытий для молодого, растущего воображения.</p>
+           <div class="img-container" id="heart-img">
+
+           </div>
+           <h2>Маленькая компания, большое сердце</h2>
+           <p>Мы - компания, ориентированная на семейную жизнь. Г-н Иванов начал все это 25 лет назад, и теперь его сын Федор стоит у руля в качестве управляющего директора! Для нас всегда была важна поддержка сообществ и построение долгосрочных отношений с нашей командой и клиентами.</p>
+           <div class="img-container" id="leaves-img">
+           </div>
+           <h2>Дерево - это здорово</h2>
+           <p>Деревянные игрушки поддаются биологическому разложению и созданы на основе выдумки, так что творчество ребенка делает все возможное. Они более долговечны, чем их пластиковые аналоги; они - семейная реликвия в процессе становления.</p>
+           <div class="img-container" id="wood-img">
+
+           </div>
+        </section>
+       </div>
+   </div>
+
+    <div class="footer-container">
+        <div class="wrapper">
+        <footer>
+            <div class="footer-table">
+                <ul class="footer-column">
+                    <div class="logo">
+                        Теремок
+                    </div>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Быстрые ссылки</h3>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Для связи</h3>
+                    </li>
+                    <li>
+                        Понедельник - Пятница
+                    </li>
+                    <li>
+                        09:00 - 15:00
+                    </li>
+                    <li>
+                        <a href="#">Т: +7(987)-654-32-10</a>
+                    </li>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Разделы</h3>
+                    </li>
+                    <li>
+                        <a href="#">Классика</a>
+                    </li>
+                    <li>
+                        <a href="#">Самым маленьким</a>
+                    </li>
+                    <li>
+                        <a href="#">Конструктор</a>
+                    </li>
+                    <li>
+                        <a href="#">Игрушки для обучения</a>
+                    </li>
+                    <li>
+                        <a href="#">Вязанные игрушки</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>

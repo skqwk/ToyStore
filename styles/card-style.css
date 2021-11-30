@@ -1,0 +1,93 @@
+/* Cards block */
+
+.card-block {
+    margin-top: 80px;
+}
+
+.product-name p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 31px; 
+    color: #454545;
+    margin-bottom: 15px;
+}
+
+.product-price p {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(69, 69, 69, 0.8);
+}
+
+.card-table {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:40px;
+}
+
+.card-table .card {
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-table a {
+    text-decoration: none;
+}
+
+.card-table .card .card-img-box {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    margin-bottom: 70px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.card-table .card .card-img-box img {
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.card-table .card:hover .card-img-box img {
+    transform: scale(1.05);
+}
+
+.action {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.action li {
+    list-style: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.action li:hover {
+    background: #FFD6D0;
+    color: #fff;
+}
+
+@media(max-width: 768px) {
+
+    .card-content {
+        text-align: center;
+    }
+    
+    .card-table .card .card-img-box {
+        text-align: center;
+    }
+    
+}

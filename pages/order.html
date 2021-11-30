@@ -1,0 +1,215 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/common-style.css">    
+    <link rel="stylesheet" href="/styles/order.css">
+    <link rel="stylesheet" href="/styles/footer.css">    
+    <link rel="stylesheet" href="/styles/navbar.css">    
+   
+    <script src="https://kit.fontawesome.com/1317bdbbb8.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body onload="fillOrder()">
+
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                
+                <input type="checkbox" id = "check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">
+                    <a href="/pages/index.html">Теремок</a>
+                </label>
+                <ul class="nav-items">
+                    <li>
+                        <a href="/pages/catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="/pages/about.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="/pages/frequently-asked-questions.html">FAQ</a>
+                    </li>
+                </ul>
+                <input type="checkbox" id="cart">
+                <label for="cart" class="cartbtn">
+                    <div id="mark-cartbtn"></div>
+                    <i class="fas fa-shopping-cart"></i>
+
+                </label>
+                <div class="cart-items">
+                    <div class="cart-items-background">
+
+                    </div>
+                    <div class="cart-items-list">
+                        <div class="list-header">
+                            <h3>Ваша корзина</h3>
+                            <label for="cart" class="cartbtnclose">
+                                <i class="fas fa-times"></i>
+                            </label>
+                        </div>
+                        <div class="empty-list-state">
+                            Пока что корзина пуста
+                        </div>
+                        <div class="list">
+                        </div>
+                    </div>
+                </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="order-container">
+        <div class="wrapper">
+            <div class="order-list">
+                <div class="order-list-header">
+                    <ul>
+                        <li>Продукт</li>
+                        <li>Кол-во</li>
+                        <li>Цена товара</li>
+                        <li>Подытог</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="order-payment">
+                    <h3>Теремок</h3>
+                    <form onsubmit="submitOrder()" action="/pages/success.html">
+                    <h3>Контактные данные</h3>
+                    <div class="row">
+                        <input required type="text" pattern = "[a-zA-Zа-яА-Я ]+" placeholder="Имя" id="nameField">
+                        <i class="fas fa-check"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <div class="row">
+                        <input required type="email" placeholder="Почта" id="emailField">
+                        <i class="fas fa-check"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <div class="row">
+                        <input required type="tel"  pattern="\+?[\d]{5,40}" placeholder="Телефон" id="phoneField">
+                        <i class="fas fa-check"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    
+                    <h3>Итог заказа</h3>
+
+                    <div class="order-details">
+                        <div class="order-details-items">
+                            <p>Стоимость заказа (1) шт.</p>
+                            <p>3000 Р</p>
+                        </div>
+                        <div class="order-details-items">
+                            <p>Доставка</p>
+                            <p>Бесплатно</p>
+                        </div>
+                        <div class="order-details-items">
+                            <h3>Весь заказ</h3>
+                            <h3>3000 Р</h3>
+                        </div>
+                        
+                    </div>
+                    <h3>Способ оплаты</h3>
+
+                    <div class = "payment-method">
+                        <div>
+                            <label>
+                                <input type="radio" id="card" name="payment" value="online" checked>
+                                    Оплата картой онлайн
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" id="online" name="payment" value="service">
+                                Google Pay, Apple Pay, Samsung Pay
+                            </label>
+                        </div>
+                    </div>
+                      
+
+
+                    <input type="submit" class="button-primary-order" value="Оплатить заказ">
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="wrapper">
+        <footer>
+            <div class="footer-table">
+                <ul class="footer-column">
+                    <div class="logo">
+                        Теремок
+                    </div>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Быстрые ссылки</h3>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Для связи</h3>
+                    </li>
+                    <li>
+                        Понедельник - Пятница
+                    </li>
+                    <li>
+                        09:00 - 15:00
+                    </li>
+                    <li>
+                        <a href="#">Т: +7(987)-654-32-10</a>
+                    </li>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Разделы</h3>
+                    </li>
+                    <li>
+                        <a href="#">Классика</a>
+                    </li>
+                    <li>
+                        <a href="#">Самым маленьким</a>
+                    </li>
+                    <li>
+                        <a href="#">Конструктор</a>
+                    </li>
+                    <li>
+                        <a href="#">Игрушки для обучения</a>
+                    </li>
+                    <li>
+                        <a href="#">Вязанные игрушки</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <!-- Должен быть внизу т.к. считывает поля формы -->
+    <script src="/scripts/order.js"></script>
+</body>
+</html>

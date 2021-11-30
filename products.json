@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "name":"Ракеты",
+            "price": 1500,
+            "description": "bla-bla",
+            "category": ["popular", "new"]
+        },
+        {
+            "name":"Лондонский автобус",
+            "price": 1400,
+            "description": "bla-bla",
+            "category": ["popular", "new"]
+        },
+        {
+            "name":"Велоцераптор",
+            "price": 750,
+            "description": "bla-bla",
+            "category": ["popular", "new"]
+        },
+        {
+            "name":"Диплодок",
+            "price": 750,
+            "description": "bla-bla",
+            "category": ["popular"]
+        },
+        {
+            "name":"Пожарная машина",
+            "price": 1800,
+            "description": "bla-bla",
+            "category": ["popular", "new"]
+        },
+        {
+            "name":"Радуга",
+            "price": 500,
+            "description": "bla-bla",
+            "category": ["popular"]
+        },
+        {
+            "name":"Королевский экспресс",
+            "price": 500,
+            "description": "bla-bla",
+            "category": ["popular"]
+        },
+        {
+            "name":"Тракторы",
+            "price": 1500,
+            "description": "bla-bla",
+            "category": ["popular"]
+        }
+    ]
+}
