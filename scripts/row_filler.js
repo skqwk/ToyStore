@@ -634,7 +634,7 @@ function fillRowCard() {
                         let cardElement = document.createElement("div");
                         cardElement.classList.add("card");
                         cardElement.innerHTML = `
-                        <a href="/products/${card.name}.html">
+                        <a href="../products/${card.name}.html">
                             <div class="card-img-box">
                                 <img src="${card.images[0]}" alt="">
                             </div>
