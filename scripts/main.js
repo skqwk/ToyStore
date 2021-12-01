@@ -122,7 +122,7 @@ function fillCartItems() {
         buttonCheckout.classList.add("button-checkout");
 
         buttonCheckout.innerHTML = `
-        <a href = "/pages/order.html">
+        <a href = "../pages/order.html">
         <button type="submit" id="checkout" name="check" class="button-primary">
         <p>Оформить заказ</p>
         </button>
@@ -164,6 +164,93 @@ function createCartItem(item) {
     
     return divCartItem;
 }
+
+function fillCartItemsIndex() {
+    // Отобразить заполненность корзины
+    showCart();
+
+    // Получаем контейнер из локального хранилища
+    let orderedItems = localStorage.getItem("orderedItems");
+    console.log(`fillCartItems() orderedItems:${orderedItems}`);
+    let items = (orderedItems)? JSON.parse(orderedItems) : [];
+
+    if (items.length === 0) {
+        showCartIcon = false;
+        let cartIcon = document.getElementById("mark-cartbtn");
+        cartIcon.style.display = "none";
+        let itemsListElement = document.querySelector(".list");
+        if (!document.querySelector(".empty-list-state")) {
+
+            let emptyListState = document.createElement("div");
+            emptyListState.classList.add("empty-list-state");
+            emptyListState.innerHTML = "Пока что корзина пуста";
+            itemsListElement.append(emptyListState);
+
+        }
+
+        let buttonCheckout = document.querySelector(".button-checkout");
+        if (buttonCheckout) buttonCheckout.remove();
+    }
+
+    else {
+
+        let itemsListElement = document.querySelector(".list");
+        let cartItemsList = document.querySelector(".cart-items-list");
+        if (itemsListElement) itemsListElement.remove();
+        
+        let emptyState = document.querySelector(".empty-list-state");
+        if (emptyState) emptyState.remove();
+
+        let buttonCheckout = document.querySelector(".button-checkout");
+        if (buttonCheckout) buttonCheckout.remove();
+
+        buttonCheckout = document.createElement("div");
+        buttonCheckout.classList.add("button-checkout");
+
+        buttonCheckout.innerHTML = `
+        <a href = "pages/order.html">
+        <button type="submit" id="checkout" name="check" class="button-primary">
+        <p>Оформить заказ</p>
+        </button>
+        </a>
+        `;
+
+        itemsListElement = document.createElement("div");
+        itemsListElement.classList.add("list");
+
+        for (let item of items) {
+            let newElement = createCartItemIndex(item);
+            itemsListElement.append(newElement);
+        }
+        cartItemsList.append(itemsListElement);
+        cartItemsList.append(buttonCheckout);
+    }
+
+}
+
+function createCartItemIndex(item) {
+    let divCartItem = document.createElement("div");
+    divCartItem.classList.add("cart-item");
+
+
+    divCartItem.innerHTML = `
+    <a href="products/${item.name}.html"><img src="${item.href.replace("../", "")}"></a>
+        <div class="cart-item-data">
+            <div class="item-data-header">
+                <h4 class="item-name">${item.name}</h4>
+                <label class="removebtn" onclick="removeItem(this)">
+                    <i class="fas fa-trash" aria-hidden="true"></i>
+                    </label>
+            </div>
+            <h4 class="item-amount-price">${item.amount} x ${item.price} ₽</h4>
+            <h4 class="item-cost">${item.amount*item.price} ₽</h4>
+        </div>
+    `
+    
+    return divCartItem;
+}
+
+
 
 function showCart() {
     let orderedItems = localStorage.getItem("orderedItems");

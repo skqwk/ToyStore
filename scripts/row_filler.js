@@ -654,6 +654,44 @@ function fillRowCard() {
             }
         }
     }
+}
+
+function fillRowCardIndex() {
+  console.log(`fillRowCard() data: ${data}`);
+  
+  let cardTables = document.querySelectorAll('.card-table');
+
+
+      for (let cardTable of cardTables) {
+          
+          let category = cardTable.id;
+
+          for (let card of data.items) {
+              for (let c of card.category) {
+                  if (c === category) {
+                      let cardElement = document.createElement("div");
+                      cardElement.classList.add("card");
+                      cardElement.innerHTML = `
+                      <a href="products/${card.name}.html">
+                          <div class="card-img-box">
+                              <img src="${card.images[0].replace("../", "")}" alt="">
+                          </div>
+                          <div class="card-content">
+                              <div class="product-name">
+                                  <p>${card.name}</p>
+                              </div>
+                              <div class="product-price">
+                                  <p>${card.price} ₽</p>
+                              </div>    
+                          </div>
+                      </a>
+                      `
+                      cardTable.append(cardElement);
+              }
+
+          }
+      }
+  }
 
 
 }
