@@ -12,9 +12,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Ракеты\\space-rockets.jpg",
-          "/img\\products\\Ракеты\\space-rockets2.jpg",
-          "/img\\products\\Ракеты\\space-rockets3.jpg"
+          "../img\\products\\Ракеты\\space-rockets.jpg",
+          "../img\\products\\Ракеты\\space-rockets2.jpg",
+          "../img\\products\\Ракеты\\space-rockets3.jpg"
         ],
         "vendor_code": "SK-57899"
       },
@@ -29,9 +29,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Лондонский автобус\\1london-bus3.jpg",
-          "/img\\products\\Лондонский автобус\\london-bus.jpg",
-          "/img\\products\\Лондонский автобус\\london-bus2.jpg"
+          "../img\\products\\Лондонский автобус\\1london-bus3.jpg",
+          "../img\\products\\Лондонский автобус\\london-bus.jpg",
+          "../img\\products\\Лондонский автобус\\london-bus2.jpg"
         ],
         "vendor_code": "SK-37073"
       },
@@ -46,8 +46,8 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Велоцераптор\\dinosaur-3.jpg",
-          "/img\\products\\Велоцераптор\\dinosaur-4.jpg"
+          "../img\\products\\Велоцераптор\\dinosaur-3.jpg",
+          "../img\\products\\Велоцераптор\\dinosaur-4.jpg"
         ],
         "vendor_code": "SK-60595"
       },
@@ -62,8 +62,8 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Диплодок\\dinosaur-2.jpg",
-          "/img\\products\\Диплодок\\dinosaur-3.jpg"
+          "../img\\products\\Диплодок\\dinosaur-2.jpg",
+          "../img\\products\\Диплодок\\dinosaur-3.jpg"
         ],
         "vendor_code": "SK-21716"
       },
@@ -78,9 +78,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Пожарная машина\\1fire-truck3.jpg",
-          "/img\\products\\Пожарная машина\\fire-truck.jpg",
-          "/img\\products\\Пожарная машина\\fire-truck2.jpg"
+          "../img\\products\\Пожарная машина\\1fire-truck3.jpg",
+          "../img\\products\\Пожарная машина\\fire-truck.jpg",
+          "../img\\products\\Пожарная машина\\fire-truck2.jpg"
         ],
         "vendor_code": "SK-56601"
       },
@@ -94,9 +94,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Радуга\\raibow-tunnel.jpg",
-          "/img\\products\\Радуга\\rainbow-tunnel.jpg",
-          "/img\\products\\Радуга\\rainbow-tunnel2.jpg"
+          "../img\\products\\Радуга\\raibow-tunnel.jpg",
+          "../img\\products\\Радуга\\rainbow-tunnel.jpg",
+          "../img\\products\\Радуга\\rainbow-tunnel2.jpg"
         ],
         "vendor_code": "SK-72290"
       },
@@ -110,9 +110,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Королевский экспресс\\red-train.jpg",
-          "/img\\products\\Королевский экспресс\\red-train2.jpg",
-          "/img\\products\\Королевский экспресс\\red-train3.jpg"
+          "../img\\products\\Королевский экспресс\\red-train.jpg",
+          "../img\\products\\Королевский экспресс\\red-train2.jpg",
+          "../img\\products\\Королевский экспресс\\red-train3.jpg"
         ],
         "vendor_code": "SK-96597"
       },
@@ -126,9 +126,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Тракторы\\tractors.jpg",
-          "/img\\products\\Тракторы\\tractors2.jpg",
-          "/img\\products\\Тракторы\\tractors3.jpg"
+          "../img\\products\\Тракторы\\tractors.jpg",
+          "../img\\products\\Тракторы\\tractors2.jpg",
+          "../img\\products\\Тракторы\\tractors3.jpg"
         ],
         "vendor_code": "SK-68551"
       },
@@ -141,9 +141,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Башня\\tower1.jpg",
-          "/img\\products\\Башня\\tower2.jpg",
-          "/img\\products\\Башня\\tower3.jpg"
+          "../img\\products\\Башня\\tower1.jpg",
+          "../img\\products\\Башня\\tower2.jpg",
+          "../img\\products\\Башня\\tower3.jpg"
         ],
         "vendor_code": "SK-65191"
       },
@@ -156,9 +156,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Бегемот\\hippo1.jpg",
-          "/img\\products\\Бегемот\\hippo2.jpg",
-          "/img\\products\\Бегемот\\hippo3.jpg"
+          "../img\\products\\Бегемот\\hippo1.jpg",
+          "../img\\products\\Бегемот\\hippo2.jpg",
+          "../img\\products\\Бегемот\\hippo3.jpg"
         ],
         "vendor_code": "SK-38862"
       },
@@ -171,9 +171,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Весы\\Weighing-Scales.jpg",
-          "/img\\products\\Весы\\Weighing-Scales2.jpg",
-          "/img\\products\\Весы\\Weighing-Scales3.jpg"
+          "../img\\products\\Весы\\Weighing-Scales.jpg",
+          "../img\\products\\Весы\\Weighing-Scales2.jpg",
+          "../img\\products\\Весы\\Weighing-Scales3.jpg"
         ],
         "vendor_code": "SK-53786"
       },
@@ -186,9 +186,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Вираж\\haba-spiral-rollerby.jpg",
-          "/img\\products\\Вираж\\haba-spiral-rollerby2.jpg",
-          "/img\\products\\Вираж\\haba-spiral-rollerby3.jpg"
+          "../img\\products\\Вираж\\haba-spiral-rollerby.jpg",
+          "../img\\products\\Вираж\\haba-spiral-rollerby2.jpg",
+          "../img\\products\\Вираж\\haba-spiral-rollerby3.jpg"
         ],
         "vendor_code": "SK-48592"
       },
@@ -202,9 +202,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Духовой шкаф\\Pink-Oven.jpg",
-          "/img\\products\\Духовой шкаф\\Pink-Oven2.jpg",
-          "/img\\products\\Духовой шкаф\\Pink-Oven3.jpg"
+          "../img\\products\\Духовой шкаф\\Pink-Oven.jpg",
+          "../img\\products\\Духовой шкаф\\Pink-Oven2.jpg",
+          "../img\\products\\Духовой шкаф\\Pink-Oven3.jpg"
         ],
         "vendor_code": "SK-23454"
       },
@@ -218,9 +218,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Железная дорога\\wooden_trainset.jpg",
-          "/img\\products\\Железная дорога\\wooden_trainset2.jpg",
-          "/img\\products\\Железная дорога\\wooden_trainset3.jpg"
+          "../img\\products\\Железная дорога\\wooden_trainset.jpg",
+          "../img\\products\\Железная дорога\\wooden_trainset2.jpg",
+          "../img\\products\\Железная дорога\\wooden_trainset3.jpg"
         ],
         "vendor_code": "SK-39708"
       },
@@ -233,9 +233,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Касса\\Cash-Register.jpg",
-          "/img\\products\\Касса\\Cash-Register2.jpg",
-          "/img\\products\\Касса\\Cash-Register3.jpg"
+          "../img\\products\\Касса\\Cash-Register.jpg",
+          "../img\\products\\Касса\\Cash-Register2.jpg",
+          "../img\\products\\Касса\\Cash-Register3.jpg"
         ],
         "vendor_code": "SK-92528"
       },
@@ -248,9 +248,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Красный трактор\\red-tractor1.jpg",
-          "/img\\products\\Красный трактор\\red-tractor2.jpg",
-          "/img\\products\\Красный трактор\\red-tractor3.jpg"
+          "../img\\products\\Красный трактор\\red-tractor1.jpg",
+          "../img\\products\\Красный трактор\\red-tractor2.jpg",
+          "../img\\products\\Красный трактор\\red-tractor3.jpg"
         ],
         "vendor_code": "SK-93761"
       },
@@ -263,8 +263,8 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Кролик\\bunny.jpg",
-          "/img\\products\\Кролик\\bunny2.jpg"
+          "../img\\products\\Кролик\\bunny.jpg",
+          "../img\\products\\Кролик\\bunny2.jpg"
         ],
         "vendor_code": "SK-19495"
       },
@@ -278,9 +278,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Ксилофон\\Xylophone-Musical.jpg",
-          "/img\\products\\Ксилофон\\Xylophone-Musical2.jpg",
-          "/img\\products\\Ксилофон\\Xylophone-Musical3.jpg"
+          "../img\\products\\Ксилофон\\Xylophone-Musical.jpg",
+          "../img\\products\\Ксилофон\\Xylophone-Musical2.jpg",
+          "../img\\products\\Ксилофон\\Xylophone-Musical3.jpg"
         ],
         "vendor_code": "SK-34613"
       },
@@ -295,8 +295,8 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Кубики\\1wooden-blocks.jpg",
-          "/img\\products\\Кубики\\wooden-blocks-2.jpg"
+          "../img\\products\\Кубики\\1wooden-blocks.jpg",
+          "../img\\products\\Кубики\\wooden-blocks-2.jpg"
         ],
         "vendor_code": "SK-32065"
       },
@@ -309,9 +309,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Лондонские машины\\london-vehicle-set.jpg",
-          "/img\\products\\Лондонские машины\\london-vehicle-set2.jpg",
-          "/img\\products\\Лондонские машины\\london-vehicle-set3.jpg"
+          "../img\\products\\Лондонские машины\\london-vehicle-set.jpg",
+          "../img\\products\\Лондонские машины\\london-vehicle-set2.jpg",
+          "../img\\products\\Лондонские машины\\london-vehicle-set3.jpg"
         ],
         "vendor_code": "SK-58611"
       },
@@ -326,9 +326,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Мозаика\\mozaics.jpg",
-          "/img\\products\\Мозаика\\mozaics2.jpg",
-          "/img\\products\\Мозаика\\mozaics3.jpg"
+          "../img\\products\\Мозаика\\mozaics.jpg",
+          "../img\\products\\Мозаика\\mozaics2.jpg",
+          "../img\\products\\Мозаика\\mozaics3.jpg"
         ],
         "vendor_code": "SK-81158"
       },
@@ -341,9 +341,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Носорог\\rhino1.jpg",
-          "/img\\products\\Носорог\\rhino2.jpg",
-          "/img\\products\\Носорог\\rhino3.jpg"
+          "../img\\products\\Носорог\\rhino1.jpg",
+          "../img\\products\\Носорог\\rhino2.jpg",
+          "../img\\products\\Носорог\\rhino3.jpg"
         ],
         "vendor_code": "SK-52299"
       },
@@ -356,9 +356,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Осьминожек\\little-octopus1.jpg",
-          "/img\\products\\Осьминожек\\little-octopus2.jpg",
-          "/img\\products\\Осьминожек\\little-octopus3.jpg"
+          "../img\\products\\Осьминожек\\little-octopus1.jpg",
+          "../img\\products\\Осьминожек\\little-octopus2.jpg",
+          "../img\\products\\Осьминожек\\little-octopus3.jpg"
         ],
         "vendor_code": "SK-16751"
       },
@@ -373,9 +373,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Пирамидка\\naturla-round-stacker.jpg",
-          "/img\\products\\Пирамидка\\naturla-round-stacker2.jpg",
-          "/img\\products\\Пирамидка\\naturla-round-stacker3.jpg"
+          "../img\\products\\Пирамидка\\naturla-round-stacker.jpg",
+          "../img\\products\\Пирамидка\\naturla-round-stacker2.jpg",
+          "../img\\products\\Пирамидка\\naturla-round-stacker3.jpg"
         ],
         "vendor_code": "SK-25114"
       },
@@ -390,9 +390,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Плитка с фигурами\\shapes-activity.jpg",
-          "/img\\products\\Плитка с фигурами\\shapes-activity2.jpg",
-          "/img\\products\\Плитка с фигурами\\shapes-activity3.jpg"
+          "../img\\products\\Плитка с фигурами\\shapes-activity.jpg",
+          "../img\\products\\Плитка с фигурами\\shapes-activity2.jpg",
+          "../img\\products\\Плитка с фигурами\\shapes-activity3.jpg"
         ],
         "vendor_code": "SK-48446"
       },
@@ -406,9 +406,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Погремушка\\rattle_ring.jpg",
-          "/img\\products\\Погремушка\\rattle_ring2.jpg",
-          "/img\\products\\Погремушка\\rattle_ring3.jpg"
+          "../img\\products\\Погремушка\\rattle_ring.jpg",
+          "../img\\products\\Погремушка\\rattle_ring2.jpg",
+          "../img\\products\\Погремушка\\rattle_ring3.jpg"
         ],
         "vendor_code": "SK-39753"
       },
@@ -423,9 +423,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Развивающие блоки\\discovery_blocks.jpg",
-          "/img\\products\\Развивающие блоки\\discovery_blocks2.jpg",
-          "/img\\products\\Развивающие блоки\\discovery_blocks3.jpg"
+          "../img\\products\\Развивающие блоки\\discovery_blocks.jpg",
+          "../img\\products\\Развивающие блоки\\discovery_blocks2.jpg",
+          "../img\\products\\Развивающие блоки\\discovery_blocks3.jpg"
         ],
         "vendor_code": "SK-46205"
       },
@@ -438,9 +438,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Ретро машины\\retro-car-set-2.jpg",
-          "/img\\products\\Ретро машины\\retro-car-set-3.jpg",
-          "/img\\products\\Ретро машины\\retro-car-set.jpg"
+          "../img\\products\\Ретро машины\\retro-car-set-2.jpg",
+          "../img\\products\\Ретро машины\\retro-car-set-3.jpg",
+          "../img\\products\\Ретро машины\\retro-car-set.jpg"
         ],
         "vendor_code": "SK-68358"
       },
@@ -456,9 +456,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Роботы\\robot_bloxks_.jpg",
-          "/img\\products\\Роботы\\robot_bloxks_2.jpg",
-          "/img\\products\\Роботы\\robot_bloxks_3.jpg"
+          "../img\\products\\Роботы\\robot_bloxks_.jpg",
+          "../img\\products\\Роботы\\robot_bloxks_2.jpg",
+          "../img\\products\\Роботы\\robot_bloxks_3.jpg"
         ],
         "vendor_code": "SK-52832"
       },
@@ -471,9 +471,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Северный экспресс\\blue-train.jpg",
-          "/img\\products\\Северный экспресс\\blue-train2.jpg",
-          "/img\\products\\Северный экспресс\\blue-train3.jpg"
+          "../img\\products\\Северный экспресс\\blue-train.jpg",
+          "../img\\products\\Северный экспресс\\blue-train2.jpg",
+          "../img\\products\\Северный экспресс\\blue-train3.jpg"
         ],
         "vendor_code": "SK-53766"
       },
@@ -486,9 +486,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Сова часы\\owl-clock.jpg",
-          "/img\\products\\Сова часы\\owl-clock2.jpg",
-          "/img\\products\\Сова часы\\owl-clock3.jpg"
+          "../img\\products\\Сова часы\\owl-clock.jpg",
+          "../img\\products\\Сова часы\\owl-clock2.jpg",
+          "../img\\products\\Сова часы\\owl-clock3.jpg"
         ],
         "vendor_code": "SK-75091"
       },
@@ -501,9 +501,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Стегозавр\\stegosaur1.jpg",
-          "/img\\products\\Стегозавр\\stegosaur2.jpg",
-          "/img\\products\\Стегозавр\\stegosaur3.jpg"
+          "../img\\products\\Стегозавр\\stegosaur1.jpg",
+          "../img\\products\\Стегозавр\\stegosaur2.jpg",
+          "../img\\products\\Стегозавр\\stegosaur3.jpg"
         ],
         "vendor_code": "SK-36073"
       },
@@ -516,8 +516,8 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Ти-Рекс\\ti-rex-1.jpg",
-          "/img\\products\\Ти-Рекс\\ti-rex-2.jpg"
+          "../img\\products\\Ти-Рекс\\ti-rex-1.jpg",
+          "../img\\products\\Ти-Рекс\\ti-rex-2.jpg"
         ],
         "vendor_code": "SK-95050"
       },
@@ -531,9 +531,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Транспортер\\car-transporter.jpg",
-          "/img\\products\\Транспортер\\car-transporter2.jpg",
-          "/img\\products\\Транспортер\\car-transporter3.jpg"
+          "../img\\products\\Транспортер\\car-transporter.jpg",
+          "../img\\products\\Транспортер\\car-transporter2.jpg",
+          "../img\\products\\Транспортер\\car-transporter3.jpg"
         ],
         "vendor_code": "SK-93232"
       },
@@ -547,9 +547,9 @@ const data = {
           "all"
         ],
         "images": [
-          "/img\\products\\Черепашка\\turtle1.jpg",
-          "/img\\products\\Черепашка\\turtle2.jpg",
-          "/img\\products\\Черепашка\\turtle3.jpg"
+          "../img\\products\\Черепашка\\turtle1.jpg",
+          "../img\\products\\Черепашка\\turtle2.jpg",
+          "../img\\products\\Черепашка\\turtle3.jpg"
         ],
         "vendor_code": "SK-72410"
       }

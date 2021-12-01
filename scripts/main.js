@@ -149,7 +149,7 @@ function createCartItem(item) {
 
 
     divCartItem.innerHTML = `
-    <a href="/products/${item.name}.html"><img src="${item.href}"></a>
+    <a href="../products/${item.name}.html"><img src="${item.href}"></a>
         <div class="cart-item-data">
             <div class="item-data-header">
                 <h4 class="item-name">${item.name}</h4>
@@ -221,7 +221,7 @@ function fillFooter() {
     <footer>
         <div class="footer-table">
             <ul class="footer-column">
-                <a class="logo" href="/">
+                <a class="logo" href="../">
                     Теремок
                 </a>
             </ul>
@@ -230,13 +230,13 @@ function fillFooter() {
                     <h3>Быстрые ссылки</h3>
                 </li>
                 <li>
-                    <a href="/pages/catalog.html">Каталог</a>
+                    <a href="../pages/catalog.html">Каталог</a>
                 </li>
                 <li>
-                    <a href="/pages/about.html">О нас</a>
+                    <a href="../pages/about.html">О нас</a>
                 </li>
                 <li>
-                    <a href="/pages/frequently-asked-questions.html">FAQ</a>
+                    <a href="../pages/frequently-asked-questions.html">FAQ</a>
                 </li>
             </ul>
             <ul class="footer-column">
@@ -258,19 +258,19 @@ function fillFooter() {
                     <h3>Разделы</h3>
                 </li>
                 <li>
-                    <a href="/pages/catalog.html#classic">Классика</a>
+                    <a href="../pages/catalog.html#classic">Классика</a>
                 </li>
                 <li>
-                    <a href="/pages/catalog.html#kids">Самым маленьким</a>
+                    <a href="../pages/catalog.html#kids">Самым маленьким</a>
                 </li>
                 <li>
-                    <a href="/pages/catalog.html#constructor">Конструктор</a>
+                    <a href="../pages/catalog.html#constructor">Конструктор</a>
                 </li>
                 <li>
-                    <a href="/pages/catalog.html#kids">Игрушки для обучения</a>
+                    <a href="../pages/catalog.html#kids">Игрушки для обучения</a>
                 </li>
                 <li>
-                    <a href="/pages/catalog.html#knitted">Вязанные игрушки</a>
+                    <a href="../pages/catalog.html#knitted">Вязанные игрушки</a>
                 </li>
             </ul>
         </div>
