@@ -50,12 +50,12 @@ section p {
 }
 
 #heart-img {
-    background-image: url('/img/about/heart.jpg');
+    background-image: url('../img/about/heart.jpg');
 }
 #wood-img {
-    background-image: url('/img/about/wood.jpg');
+    background-image: url('../img/about/wood.jpg');
 }
 #leaves-img {
-    background-image: url('/img/about/leaves.jpg');
+    background-image: url('../img/about/leaves.jpg');
 }
 
