@@ -221,7 +221,7 @@ function fillFooter() {
     <footer>
         <div class="footer-table">
             <ul class="footer-column">
-                <a class="logo" href="/pages/index.html">
+                <a class="logo" href="/">
                     Теремок
                 </a>
             </ul>
