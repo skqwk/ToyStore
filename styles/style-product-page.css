@@ -103,7 +103,32 @@ body {
     flex-direction: column;
 }
 
+.card-block h3 {
+    font-size: 48px;
+    text-align: center;
+    line-height: 61px;
+    color: #454545;
+    margin-bottom: 60px;
+}
 
+@media (max-width:768px) {
+    .card-block h3 {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 61px;
+        text-align: center;
+        color: #454545;
+        margin-bottom: 60px;
+    }
+
+    .category h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
 
 .slider {
     position: relative;
